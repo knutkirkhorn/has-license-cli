@@ -10,7 +10,7 @@ const cli = meow(`
         Examples
           $ has-license
           $ has-license https://github.com/Knutakir/has-license
-          $ has-license C:\Users\Knut\Documents\GitHub\has-license 
+          $ has-license C:\\Users\\Knut\\Documents\\GitHub\\has-license 
 `);
 
 const path = cli.input[0];
