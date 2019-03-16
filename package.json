@@ -8,13 +8,13 @@
   },
   "main": "cli.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava"
   },
   "files": [
     "cli.js"
   ],
   "engines": {
-    "node": ">=4"
+    "node": ">=8"
   },
   "repository": {
     "type": "git",
@@ -34,7 +34,10 @@
   },
   "homepage": "https://github.com/Knutakir/has-license-cli#readme",
   "dependencies": {
-    "has-license": "^1.1.1",
-    "meow": "^4.0.0"
+    "has-license": "^1.1.2",
+    "meow": "^5.0.0"
+  },
+  "devDependencies": {
+    "ava": "^1.3.1"
   }
 }
