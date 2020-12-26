@@ -35,9 +35,10 @@
   "homepage": "https://github.com/Knutakir/has-license-cli#readme",
   "dependencies": {
     "has-license": "^1.1.2",
-    "meow": "^5.0.0"
+    "meow": "^8.1.0"
   },
   "devDependencies": {
-    "ava": "^2.2.0"
+    "ava": "^3.14.0",
+    "execa": "^5.0.0"
   }
 }

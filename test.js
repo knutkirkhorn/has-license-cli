@@ -1,5 +1,5 @@
-import test from 'ava';
-import execa from 'execa';
+const test = require('ava');
+const execa = require('execa');
 
 test('outprint something', async t => {
     const {stdout} = await execa('./cli.js', ['--version']);
