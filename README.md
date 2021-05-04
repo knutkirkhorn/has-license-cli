@@ -1,4 +1,4 @@
-# has-license-cli [![Build Status](https://travis-ci.org/Knutakir/has-license-cli.svg?branch=master)](https://travis-ci.org/Knutakir/has-license-cli)
+# has-license-cli [![Build Status](https://travis-ci.org/Knutakir/has-license-cli.svg?branch=main)](https://travis-ci.org/Knutakir/has-license-cli)
 > Check if a repository has a license CLI
 
 ## Installation
