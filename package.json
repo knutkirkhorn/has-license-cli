@@ -35,12 +35,12 @@
   },
   "homepage": "https://github.com/Knutakir/has-license-cli#readme",
   "dependencies": {
-    "has-license": "^1.1.2",
+    "has-license": "^1.2.0",
     "meow": "^8.1.0"
   },
   "devDependencies": {
-    "ava": "^3.14.0",
-    "eslint": "^7.20.0",
+    "ava": "^3.15.0",
+    "eslint": "^7.26.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
     "execa": "^5.0.0"
