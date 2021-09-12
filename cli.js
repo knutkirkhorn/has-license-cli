@@ -11,7 +11,7 @@ const cli = meow(`
 
         Examples
           $ has-license
-          $ has-license https://github.com/Knutakir/has-license
+          $ has-license https://github.com/knutkirkhorn/has-license
           $ has-license C:\\Users\\Knut\\Documents\\GitHub\\has-license 
 `);
 

@@ -1,4 +1,4 @@
-# has-license-cli [![Build Status](https://travis-ci.org/Knutakir/has-license-cli.svg?branch=main)](https://travis-ci.org/Knutakir/has-license-cli)
+# has-license-cli [![Build Status](https://travis-ci.org/knutkirkhorn/has-license-cli.svg?branch=main)](https://travis-ci.org/knutkirkhorn/has-license-cli)
 > Check if a repository has a license CLI
 
 ## Installation
@@ -15,14 +15,14 @@ $ has-license --help
 
         Examples
           $ has-license
-          $ has-license https://github.com/Knutakir/has-license
+          $ has-license https://github.com/knutkirkhorn/has-license
           $ has-license C:\Users\Knut\Documents\GitHub\has-license 
 ```
 
 ## Related
-- [has-license](https://github.com/Knutakir/has-license) - API for this module
-- [gh-repo-has-license](https://github.com/Knutakir/gh-repo-has-license) - Check if a GitHub repository has a license
-- [default-branch](https://github.com/Knutakir/default-branch) - Get the default branch of a GitHub repository
+- [has-license](https://github.com/knutkirkhorn/has-license) - API for this module
+- [gh-repo-has-license](https://github.com/knutkirkhorn/gh-repo-has-license) - Check if a GitHub repository has a license
+- [default-branch](https://github.com/knutkirkhorn/default-branch) - Get the default branch of a GitHub repository
 
 ## License
 MIT © [Knut Kirkhorn](LICENSE)

@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Knutakir/has-license-cli.git"
+    "url": "git+https://github.com/knutkirkhorn/has-license-cli.git"
   },
   "keywords": [
     "github",
@@ -31,9 +31,9 @@
   "author": "Knut Kirkhorn",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Knutakir/has-license-cli/issues"
+    "url": "https://github.com/knutkirkhorn/has-license-cli/issues"
   },
-  "homepage": "https://github.com/Knutakir/has-license-cli#readme",
+  "homepage": "https://github.com/knutkirkhorn/has-license-cli#readme",
   "dependencies": {
     "has-license": "^1.2.0",
     "meow": "^8.1.0"
