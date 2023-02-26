@@ -1,47 +1,51 @@
 {
-  "name": "has-license-cli",
-  "version": "1.0.4",
-  "description": "Check if a repository has a license",
-  "bin": {
-    "has-license": "cli.js"
-  },
-  "main": "cli.js",
-  "scripts": {
-    "test": "ava",
-    "lint": "eslint ."
-  },
-  "files": [
-    "cli.js"
-  ],
-  "engines": {
-    "node": ">=8"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/knutkirkhorn/has-license-cli.git"
-  },
-  "keywords": [
-    "github",
-    "local",
-    "repository",
-    "license",
-    "checker"
-  ],
-  "author": "Knut Kirkhorn",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/knutkirkhorn/has-license-cli/issues"
-  },
-  "homepage": "https://github.com/knutkirkhorn/has-license-cli#readme",
-  "dependencies": {
-    "has-license": "^1.2.0",
-    "meow": "^8.1.0"
-  },
-  "devDependencies": {
-    "ava": "^3.15.0",
-    "eslint": "^7.26.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1",
-    "execa": "^5.0.0"
-  }
+	"name": "has-license-cli",
+	"version": "1.0.4",
+	"description": "Check if a repository has a license",
+	"bin": {
+		"has-license": "cli.js"
+	},
+	"scripts": {
+		"test": "ava",
+		"lint": "eslint ."
+	},
+	"files": [
+		"cli.js"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/knutkirkhorn/has-license-cli.git"
+	},
+	"keywords": [
+		"github",
+		"local",
+		"repository",
+		"license",
+		"checker"
+	],
+	"author": "Knut Kirkhorn",
+	"type": "module",
+	"exports": "./index.js",
+	"types": "./index.d.ts",
+	"engines": {
+		"node": ">=14.16"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/knutkirkhorn/has-license-cli/issues"
+	},
+	"homepage": "https://github.com/knutkirkhorn/has-license-cli#readme",
+	"dependencies": {
+		"has-license": "^2.0.0",
+		"meow": "^11.0.0"
+	},
+	"devDependencies": {
+		"ava": "^5.2.0",
+		"eslint": "^8.35.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-plugin-ava": "^14.0.0",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-unicorn": "^45.0.2",
+		"execa": "^7.0.0"
+	}
 }

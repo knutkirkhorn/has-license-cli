@@ -5,7 +5,7 @@
 ## Installation
 
 ```
-$ npm install --global has-license-cli
+npm install --global has-license-cli
 ```
 
 ## Usage
@@ -13,13 +13,13 @@ $ npm install --global has-license-cli
 ```
 $ has-license --help
 
-        Usage
-          $ has-license <path>
+  Usage
+    $ has-license <path>
 
-        Examples
-          $ has-license
-          $ has-license https://github.com/knutkirkhorn/has-license
-          $ has-license C:\Users\Knut\Documents\GitHub\has-license 
+  Examples
+    $ has-license
+    $ has-license https://github.com/knutkirkhorn/has-license
+    $ has-license C:\Users\Knut\Documents\GitHub\has-license
 ```
 
 ## Related

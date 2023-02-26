@@ -1,28 +1,20 @@
 #!/usr/bin/env node
 
-'use strict';
-
-const meow = require('meow');
-const hasLicense = require('has-license');
+import meow from 'meow';
+import hasLicense from 'has-license';
 
 const cli = meow(`
-        Usage
-          $ has-license <path>
+	Usage
+	  $ has-license <path>
 
-        Examples
-          $ has-license
-          $ has-license https://github.com/knutkirkhorn/has-license
-          $ has-license C:\\Users\\Knut\\Documents\\GitHub\\has-license 
-`);
+	Examples
+	  $ has-license
+	  $ has-license https://github.com/knutkirkhorn/has-license
+	  $ has-license C:\\Users\\Knut\\Documents\\GitHub\\has-license
+`, {importMeta: import.meta});
 
-const path = cli.input[0];
-
-if (path && cli.input.length === 1) {
-    hasLicense(path).then(result => {
-        console.log(result);
-    });
-} else {
-    hasLicense('.').then(result => {
-        console.log(result);
-    });
-}
+const path = cli.input[0] && cli.input.length === 1
+	? cli.input[0]
+	: '.';
+const repoHasLicense = await hasLicense(path);
+console.log(repoHasLicense);
